@@ -1,0 +1,72 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: hsla(108, 77%, 20%, 0.667);
+    color: rgb(13, 1, 1);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1200b6;
+    font-weight: bold;
+}
+
+/* Style sections */
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style headings */
+h1, h2 {
+    background-color: #f7f2f200;
+    color: ;
+}
+
+/* Style images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Style the links */
+a {
+    color: #0006b6;
+    text-decoration: none;
+}
+
+/* Style the links on hover */
+a:hover {
+    text-decoration: underline;
+}
+
